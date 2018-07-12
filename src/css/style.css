@@ -31,14 +31,12 @@
 
 .bg-bottom1 {
   height: 20rem;
-  /* width: 30rem; */
   background-repeat: repeat-x;
   background-size: cover !important;
   background-image: url('../../assets/group3.png');
 }
 .bg-bottom2 {
   height: 20rem;
-  /* width: 30rem; */
   background-repeat: repeat-x;
   background-size: cover !important;
   background-image: url('../../assets/group.png');
@@ -84,28 +82,21 @@
   height: 400px;
 }
 
-/* img {vertical-align: middle;} */
-
-/* Slideshow container */
 .slideshow-container {
   max-width: 700px;
   position: relative;
   margin: auto;
 }
 
-/* Next & previous buttons */
 .prev, .next {
-  /* cursor: pointer; */
   position: absolute;
   top: 50%;
   width: auto;
-  /* padding: 1rem; */
   padding: 8px 13px;
   margin-top: -22px;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
-  /* border-radius: 0 3px 3px 0; */
   background-color: #fff;
   color: green;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -124,13 +115,11 @@
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: green;
   color: white;
 }
 
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 2s;
@@ -148,14 +137,11 @@
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
 
 .circular-picture {
-  /* position: relative; */
-  /* margin-top: -30px; */
   width: 80px;
   height: 80px;
   overflow: hidden;
@@ -172,27 +158,22 @@
 }
 
 .prev2, .next2 {
-  /* cursor: pointer; */
   position: absolute;
   top: 50%;
   width: auto;
-  /* padding: 1rem; */
   padding: 8px 13px;
   margin-top: 15px;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
-  /* border-radius: 0 3px 3px 0; */
   background-color: #fff;
   color: green;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .next2 {
-  /* margin-left: 100px; */
   border-radius: 3px 0 0 3px;
 }
 .prev2 {
-  /* margin-left: 55px; */
   border-radius: 3px 0 0 3px;
 }
 
