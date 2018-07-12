@@ -1,0 +1,226 @@
+.show-nav {
+  display: block !important;
+}
+
+.atas {
+  height: 40rem;
+  background-repeat: repeat-x;
+  background-size: cover !important;
+  background-image: url('../../assets/bg-landing.png');
+}
+
+.big-title {
+  opacity: .04;
+  /* font-size: 20rem; */
+  font-weight: bold;
+  color: #364762;
+  text-align: center;
+}
+
+.mini-title {
+  margin-top: -88px;
+}
+.price {
+  background-color: #4980f9;
+  box-shadow: 0 30px 40px 0px rgba(52,144,220,0.3);
+}
+
+.float{
+  margin-top: -40px;
+}
+
+.bg-bottom1 {
+  height: 20rem;
+  /* width: 30rem; */
+  background-repeat: repeat-x;
+  background-size: cover !important;
+  background-image: url('../../assets/group3.png');
+}
+.bg-bottom2 {
+  height: 20rem;
+  /* width: 30rem; */
+  background-repeat: repeat-x;
+  background-size: cover !important;
+  background-image: url('../../assets/group.png');
+}
+
+.deep-blue{
+  background-color:#364761;
+}
+
+.blackish{
+  color: #4a4a4a
+}
+
+@media (min-width: 576px) {
+  .big-title{
+    font-size: 3rem;
+  }
+  .mini-title{
+    margin-top: -40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .big-title{
+    font-size: 5rem;
+  }
+  .mini-title{
+    margin-top: -80px;
+  }
+}
+
+@media (min-width: 992px) {
+  .big-title{
+    font-size: 10rem;
+  }
+  
+}
+
+/* FIrst Slider */
+
+.mySlides {
+  display: none;
+  height: 400px;
+}
+
+/* img {vertical-align: middle;} */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  /* cursor: pointer; */
+  position: absolute;
+  top: 50%;
+  width: auto;
+  /* padding: 1rem; */
+  padding: 8px 13px;
+  margin-top: -22px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  /* border-radius: 0 3px 3px 0; */
+  background-color: #fff;
+  color: green;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: green;
+  color: white;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.circular-picture {
+  /* position: relative; */
+  /* margin-top: -30px; */
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+  z-index: 10;
+}
+.circular-picture img {
+  width: 100%;
+  height: auto;
+}
+
+.bw {
+  height:60% ;
+}
+
+.prev2, .next2 {
+  /* cursor: pointer; */
+  position: absolute;
+  top: 50%;
+  width: auto;
+  /* padding: 1rem; */
+  padding: 8px 13px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  /* border-radius: 0 3px 3px 0; */
+  background-color: #fff;
+  color: green;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.next2 {
+  /* margin-left: 100px; */
+  border-radius: 3px 0 0 3px;
+}
+.prev2 {
+  /* margin-left: 55px; */
+  border-radius: 3px 0 0 3px;
+}
+
+div.foto {
+    position: absolute;
+    background-color: #abc;
+    left: 50px;
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+  }
+
+  .button:hover {
+    background-color: green;
+    color: white;
+}
+
+.button-prev {
+    background-color: #fff;
+    color: green;
+}
+
+.button-next {
+    background-color: #fff;
+    color: green;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.round{
+    border-radius: 50%;
+}
