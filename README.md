@@ -2,6 +2,7 @@
 Project ini dibangun menggunakan Tailwind, HTML, CSS, Jquery
 
 ##Skeleton
+```
 ╭─evania@Evanias-MacBook-Air ~/slice
 ╰─$ tree
 .
@@ -17,6 +18,7 @@ Project ini dibangun menggunakan Tailwind, HTML, CSS, Jquery
     │   └── slider.js
     └── stylesheets
         └── style.css
+```
 
 ## Cara Instalasi
 1. Jalankan git clone `https://github.com/nhunhea/slice.git`
