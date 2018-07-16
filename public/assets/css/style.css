@@ -6,7 +6,7 @@
   height: 40rem;
   background-repeat: repeat-x;
   background-size: cover !important;
-  background-image: url('../../assets/bg-landing.png');
+  background-image: url('../../../public/assets/images/bg-landing.png');
 }
 
 .big-title {
@@ -32,13 +32,13 @@
   height: 20rem;
   background-repeat: repeat-x;
   background-size: cover !important;
-  background-image: url('../../assets/group3.png');
+  background-image: url('../../../public/assets/images/group3.png');
 }
 .bg-bottom2 {
   height: 20rem;
   background-repeat: repeat-x;
   background-size: cover !important;
-  background-image: url('../../assets/group.png');
+  background-image: url('../../../public/assets/images/group.png');
 }
 
 .deep-blue{
@@ -48,6 +48,17 @@
 .blackish{
   color: #4a4a4a
 }
+
+/* @media (max-width: 767px) {
+  .next {
+    right: 0rem;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev {
+    left: 3rem;
+    border-radius: 3px 0 0 3px;
+  }
+} */
 
 @media (min-width: 576px) {
   .big-title{
@@ -78,11 +89,11 @@
 
 .mySlides {
   display: none;
-  height: 400px;
+  min-height: 400px;
 }
 
 .slideshow-container {
-  max-width: 700px;
+  /* max-width: 700px; */
   position: relative;
   margin: auto;
 }
@@ -106,15 +117,15 @@
 }
 
 .next {
-  right: 0;
+  right: 3rem;
   border-radius: 3px 0 0 3px;
 }
 .prev {
-  left: 0;
+  left: 3rem;
   border-radius: 3px 0 0 3px;
 }
 
-.prev:hover, .next:hover {
+.prev:hover, .next:hover, .prev2:hover, .next2:hover{
   background-color: green;
   color: white;
 }
@@ -159,7 +170,7 @@
 /* Second SLider */
 .prev2, .next2 {
   position: absolute;
-  top: 50%;
+  top: 90%;
   width: auto;
   padding: 8px 13px;
   margin-top: 15px;
@@ -177,14 +188,20 @@
   border-radius: 3px 0 0 3px;
 }
 
-div.foto {
-    position: absolute;
-    background-color: #abc;
-    left: 50px;
-    width: 90px;
-    height: 90px;
-    margin: 5px;
-  }
+
+.foto {
+  max-width: 350;
+  height: auto;
+}
+.foto2 {
+  position: absolute;
+  background-color: #abc;
+  left: 100px;
+  /* width: 90px;
+  height: 90px; */
+  margin: 5px;
+}
+
 
   .button:hover {
     background-color: green;

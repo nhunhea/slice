@@ -1,23 +1,25 @@
-# SLIce HTML Page - Wonderlabs
+# Slice HTML Page - Wonderlabs
 Project ini dibangun menggunakan Tailwind, HTML, CSS, Jquery
 
-##Skeleton
+## Skeleton
 ```
-╭─evania@Evanias-MacBook-Air ~/slice
-╰─$ tree
-.
 ├── assets
 │   └── containing images
 ├── gulpfile.js
 ├── index.html
 ├── package-lock.json
 ├── package.json
+├── public
+│   └── assets
+│      ├── css
+│      │   └── style.css
+│      ├── image
+│      │   └── contain images
+│      └── javascripts
+│          ├── script.js
+│          ├── slider.js
+|          └── slider2.css
 ├── README.md
-└── views
-    ├── javascripts
-    │   └── slider.js
-    └── stylesheets
-        └── style.css
 ```
 
 ## Cara Instalasi
